@@ -5,7 +5,6 @@ from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import pandas as pd
 from rag_core import RAGEngine, InMemorySessionStore
 from utils import load_settings
 
